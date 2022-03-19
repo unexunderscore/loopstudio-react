@@ -13,7 +13,7 @@ const Footer = () => {
       <div className='conty'>
         <div className="socials">
            <a className='foologo-link' href="#"><img className='footer-logo' src={LoopLogo} alt="Loop logo" /></a>
-          <div className='social-icons'>
+          <div className='social-icons desktop'>
           <a href="#"><img src={Facebook} alt="Facebook" /></a>
           <a href="#"><img src={Twitter} alt="Twitter" /></a>
           <a href="#"><img src={Pinterest} alt="Pinterest" /></a>
@@ -29,7 +29,14 @@ const Footer = () => {
             <a href="#">Products</a>
             <a href="#">Support</a>
           </div>
-        
+
+          <div className='social-icons mobile'>
+          <a href="#"><img src={Facebook} alt="Facebook" /></a>
+          <a href="#"><img src={Twitter} alt="Twitter" /></a>
+          <a href="#"><img src={Pinterest} alt="Pinterest" /></a>
+          <a href="#"><img src={Instagram} alt="Instagram" /></a>
+          </div>
+
           <div className="copyRight">© 2021 Loopstudios. All rights reserved.</div>
         
       </div>

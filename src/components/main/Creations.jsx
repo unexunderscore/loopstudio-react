@@ -1,20 +1,13 @@
 import React from 'react';
 import './Creations.css';
-import dEarth from '../../images/desktop/image-deep-earth.jpg';
-import nArcade from '../../images/desktop/image-night-arcade.jpg';
-import sTeam from '../../images/desktop/image-soccer-team.jpg';
-import tGrid from '../../images/desktop/image-grid.jpg';
-import fAbove from '../../images/desktop/image-from-above.jpg';
-import pBorealis from '../../images/desktop/image-pocket-borealis.jpg';
-import tCruiosity from '../../images/desktop/image-curiosity.jpg';
-import mFisheye from '../../images/desktop/image-fisheye.jpg';
+
 
 const Creations = () => {
   return (
     <div>
         <div className="cre-bar">
             <div className='cre-title'>Our Creations</div>
-            <div className='cre-btn'><button>See all</button></div>
+            <div className='cre-btn desktop'><button>See all</button></div>
         </div>
         
         <div className='grid-ground'>
@@ -27,7 +20,10 @@ const Creations = () => {
             <a href="#"><div className='Curiosity'><div className='img-text'>The curiosity</div></div></a>
             <a href="#"><div className='Fisheye'><div className='img-text'>Make it fisheye</div></div></a> 
         </div>
-        
+        <div className='mobile-btn'>
+          <div className='cre-btn mobile'><button>See all</button></div>
+        </div>
+         
     </div>
   )
 }

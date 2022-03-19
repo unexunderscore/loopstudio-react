@@ -8,7 +8,7 @@ const Interactive = () => {
     <div className='pictureText'>
 
         <div className='vrUser'>
-        <img src={vrUser} alt="vr-user"/>
+        <img className='desktop' src={vrUser} alt="vr-user"/>
         </div>
 
         <div className='leader-container'>

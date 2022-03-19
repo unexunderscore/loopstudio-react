@@ -20,11 +20,11 @@
     margin-top: 4rem;
     margin-left: 11rem;
     text-align: left;
-    width: 650px;
+    max-width: 650px;
     border: 2px solid white;
     text-transform: uppercase;
     padding: 2.5rem 2.5rem;
-    height: 280px;
+    max-height: 280px;
 }
 
 h1{
@@ -33,3 +33,104 @@ h1{
     font-size: 72px;
     line-height: 1;
 }
+
+.mobile{
+    display: none;
+}
+
+.desktop {
+    display: flex;
+}
+
+@media screen and (max-width: 992px) {
+    
+
+    .header-container{
+        background-position: center;        
+    }
+
+  }
+
+
+
+
+
+@media screen and (max-width: 880px) {
+    
+
+    .header-container{
+        background: url('../../images/mobile/image-hero.jpg');
+        background-size: cover;
+        background-position: center;     
+        background-repeat: no-repeat;
+        height: 160vh;
+    }
+
+    .desktop {
+    display: none;
+    }
+
+    .mobile{
+    display: flex;
+    }
+
+    .navBar{
+        display: flex;
+        justify-content: space-between;
+        margin: 4.25rem 2rem;
+    }
+  
+    .head-title{
+        margin: 19rem auto 0 auto;
+        text-align: left;
+        max-width: 650px;
+        border: 2px solid white;
+        text-transform: uppercase;
+        padding: 2.5rem 2.5rem;
+        height: 280px;
+    }
+    
+    h1{
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1;
+    }
+
+}
+
+@media screen and (max-width: 700px) {
+
+    .head-title{
+        margin: 19rem 2rem 0 2rem;
+        padding: 2.5rem 0.5rem 2.5rem 2.5rem;
+    }
+  }
+  
+
+  @media screen and (max-width: 660px) {
+
+    .head-title{
+        margin: 19rem 2rem 0 2rem;
+        padding: 2.5rem 0.5rem 2.5rem 2.5rem;
+        height: auto;
+    }
+   
+    h1{
+        font-weight: 300;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 1;
+        font-size: 10vw;
+    }
+  }
+
+  @media screen and (max-width: 375px) {
+
+    .header-container{
+        background: url('../../images/mobile/image-hero.jpg');
+        background-size: contain;
+        background-position: top;     
+        background-repeat: no-repeat;
+        height: auto;
+    }
+
+  }
