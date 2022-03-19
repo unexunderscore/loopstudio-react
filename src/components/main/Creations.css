@@ -1,0 +1,184 @@
+.cre-bar{
+    display: flex;
+    justify-content: space-between;
+    margin: 12rem auto 0rem auto;
+    max-width: 1100px;
+
+}
+
+.cre-title{
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+
+.cre-btn button{
+    text-transform: uppercase;
+    background-color: white;
+    color: black;
+    padding: 0.7rem 2.4rem 0.7rem 2.4rem;
+    letter-spacing: 4px;
+    font-family: 'Alata', sans-serif;
+    border: none;
+    outline: none;
+    border: 2px solid hsl(0, 0%, 55%);
+}
+
+.cre-btn button:hover{
+    cursor: pointer;
+    background-color: black;
+    border: 2px solid black;
+    color: white;
+    }
+
+.cre-btn button:active{
+    transform: scale(96%);
+}
+
+.grid-ground{
+    margin: 5rem auto;
+    max-width: 1100px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 30px;
+    row-gap: 25px;
+    position: relative;
+}
+
+.grid-ground:hover{
+    cursor: default;
+}
+
+.grid-ground div{
+    height: 450px;
+     cursor: pointer;
+}
+
+.img-text{
+    position:absolute;
+    text-transform: uppercase;
+    color: white;
+    margin-top: 23.8rem;
+    margin-left: 2.6rem;
+    font-size: 32px;
+    line-height: 1;
+    text-align: left;
+    width: 180px;
+    height: 25px !important;
+}
+
+.grid-ground div:hover .img-text{
+    color: black;
+}
+
+.earth{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.767)), url('../../images/desktop/image-deep-earth.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+.earth:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-deep-earth.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+
+
+.Arcade{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-night-arcade.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+.Arcade:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-night-arcade.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+
+.Soccer{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-soccer-team.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+.Soccer:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-soccer-team.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.Grid{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-grid.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+
+.Grid:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-grid.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+
+.Fromabove{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-from-above.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+
+.Fromabove:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-from-above.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.Pocket{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-pocket-borealis.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+
+.Pocket:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-pocket-borealis.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.Curiosity{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-curiosity.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+.Curiosity:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-curiosity.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
+
+.Fisheye{
+    background: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.63)), url('../../images/desktop/image-fisheye.jpg');
+    background-blend-mode: darken;
+    background-size: cover;
+    transition: 0.07s;
+}
+
+
+.Fisheye:hover{
+    background: rgba(255, 254, 254, 0.74) url('../../images/desktop/image-fisheye.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+}
