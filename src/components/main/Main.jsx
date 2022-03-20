@@ -7,10 +7,11 @@ import Creations from './Creations';
 const Main = () => {
   return (
 
-    <div className='main-style'>
-      <Interactive />
-      <Creations />
-      </div>
+      <div className='main-style'>
+        <Interactive />
+        <Creations />
+        </div>
+
   )
 }
 

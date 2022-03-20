@@ -28,7 +28,8 @@
     position: relative;
 }
 
-.navAbout a:hover:before{
+
+.navAbout a:hover:before {
   content : "";
   position: absolute;
   top     : 28px;
